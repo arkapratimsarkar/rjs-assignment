@@ -2,7 +2,9 @@ import React from "react";
 
 const Rectangle = ({ colorStatus }) => {
   return (
-    <div className={`rectangle ${colorStatus ? "active-rectangle" : ""}`}></div>
+    <div className={`${colorStatus ? "active-rectangle" : "rectangle"}`}>
+      <p>Button Clicked</p>
+    </div>
   );
 };
 
