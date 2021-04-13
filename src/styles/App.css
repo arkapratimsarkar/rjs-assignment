@@ -28,7 +28,6 @@ body {
   background: rgba(255, 0, 0, 0.4);
   position: fixed;
   top: 30%;
-  left: 35%;
 }
 
 .active-rectangle {
@@ -50,5 +49,4 @@ body {
   color: white;
   position: fixed;
   top: 90%;
-  right: 20%;
 }
